@@ -1,0 +1,316 @@
+[{
+  "year": [
+    1789,
+    1797
+  ],
+  "party": "none",
+  "president": "George Washington"
+}, {
+  "year": [
+    1797,
+    1801
+  ],
+  "party": "Federalist",
+  "president": "John Adams"
+}, {
+  "year": [
+    1801,
+    1809
+  ],
+  "party": "Democratic-Republican",
+  "president": "Thomas Jefferson"
+}, {
+  "year": [
+    1809,
+    1817
+  ],
+  "party": "Democratic-Republican",
+  "president": "James Madison"
+}, {
+  "year": [
+    1817,
+    1825
+  ],
+  "party": "Democratic-Republican",
+  "president": "James Monroe"
+}, {
+  "year": [
+    1825,
+    1829
+  ],
+  "party": "Democratic-Republican",
+  "president": "John Quincy Adams"
+}, {
+  "year": [
+    1829,
+    1837
+  ],
+  "party": "Democrat",
+  "president": "Andrew Jackson"
+}, {
+  "year": [
+    1837,
+    1841
+  ],
+  "party": "Democrat",
+  "president": "Martin van Buren"
+}, {
+  "year": [
+    1841,
+    1841
+  ],
+  "party": "Whig",
+  "president": "William H. Harrison"
+}, {
+  "year": [
+    1841,
+    1845
+  ],
+  "party": "Whig",
+  "president": "John Tyler"
+}, {
+  "year": [
+    1845,
+    1849
+  ],
+  "party": "Democrat",
+  "president": "James K. Polke"
+}, {
+  "year": [
+    1849,
+    1850
+  ],
+  "party": "Whig",
+  "president": "Zachary Taylor"
+}, {
+  "year": [
+    1850,
+    1853
+  ],
+  "party": "Whig",
+  "president": "Millard Fillmore"
+}, {
+  "year": [
+    1853,
+    1857
+  ],
+  "party": "Democrat",
+  "president": "Franklin Pierce"
+}, {
+  "year": [
+    1857,
+    1861
+  ],
+  "party": "Democrat",
+  "president": "James Buchanan"
+}, {
+  "year": [
+    1861,
+    1865
+  ],
+  "party": "Republican",
+  "president": "Abraham Lincoln"
+}, {
+  "year": [
+    1865,
+    1869
+  ],
+  "party": "National Union",
+  "president": "Andrew Johnson"
+}, {
+  "year": [
+    1869,
+    1877
+  ],
+  "party": "Republican",
+  "president": "Ulysses S. Grant"
+}, {
+  "year": [
+    1877,
+    1881
+  ],
+  "party": "Republican",
+  "president": "Rutherford Hayes"
+}, {
+  "year": [
+    1881,
+    1881
+  ],
+  "party": "Republican",
+  "president": "James Garfield"
+}, {
+  "year": [
+    1881,
+    1885
+  ],
+  "party": "Republican",
+  "president": "Chester Arthur"
+}, {
+  "year": [
+    1885,
+    1889
+  ],
+  "party": "Democrat",
+  "president": "Grover Cleveland"
+}, {
+  "year": [
+    1889,
+    1893
+  ],
+  "party": "Republican",
+  "president": "Benjamin Harrison"
+}, {
+  "year": [
+    1893,
+    1897
+  ],
+  "party": "Democrat",
+  "president": "Grover Cleveland"
+}, {
+  "year": [
+    1897,
+    1901
+  ],
+  "party": "Republican",
+  "president": "William McKinley"
+}, {
+  "year": [
+    1901,
+    1909
+  ],
+  "party": "Republican",
+  "president": "Theodore Roosevelt"
+}, {
+  "year": [
+    1909,
+    1913
+  ],
+  "party": "Republican",
+  "president": "William Taft"
+}, {
+  "year": [
+    1913,
+    1921
+  ],
+  "party": "Democrat",
+  "president": "Woodrow Wilson"
+}, {
+  "year": [
+    1921,
+    1923
+  ],
+  "party": "Republican",
+  "president": "Warren Harding"
+}, {
+  "year": [
+    1923,
+    1929
+  ],
+  "party": "Republican",
+  "president": "Calvin Coolidge"
+}, {
+  "year": [
+    1929,
+    1933
+  ],
+  "party": "Republican",
+  "president": "Herbert Hoover"
+}, {
+  "year": [
+    1933,
+    1945
+  ],
+  "party": "Democrat",
+  "president": "Franklin D. Roosevelt"
+}, {
+  "year": [
+    1945,
+    1953
+  ],
+  "party": "Democrat",
+  "president": "Harry S. Truman"
+}, {
+  "year": [
+    1953,
+    1961
+  ],
+  "party": "Republican",
+  "president": "Dwight D. Eisenhower"
+}, {
+  "year": [
+    1961,
+    1963
+  ],
+  "party": "Democrat",
+  "president": "John F. Kennedy"
+}, {
+  "year": [
+    1963,
+    1969
+  ],
+  "party": "Democrat",
+  "president": "Lyndon B. Johnson"
+}, {
+  "year": [
+    1969,
+    1974
+  ],
+  "party": "Republican",
+  "president": "Richard Nixon"
+}, {
+  "year": [
+    1974,
+    1977
+  ],
+  "party": "Republican",
+  "president": "Gerald R. Ford"
+}, {
+  "year": [
+    1977,
+    1981
+  ],
+  "party": "Democrat",
+  "president": "Jimmy Carter"
+}, {
+  "year": [
+    1981,
+    1989
+  ],
+  "party": "Republican",
+  "president": "Ronald Reagan"
+}, {
+  "year": [
+    1989,
+    1993
+  ],
+  "party": "Republican",
+  "president": "George H. W. Bush"
+}, {
+  "year": [
+    1993,
+    2001
+  ],
+  "party": "Democrat",
+  "president": "Bill Clinton"
+}, {
+  "year": [
+    2001,
+    2009
+  ],
+  "party": "Republican",
+  "president": "George Bush"
+}, {
+  "year": [
+    2009,
+    2017
+  ],
+  "party": "Democrat",
+  "president": "Barack Obama"
+}, {
+  "year": [
+    2017,
+    2017
+  ],
+  "party": "Republican",
+  "president": "Donald Trump"
+}]
