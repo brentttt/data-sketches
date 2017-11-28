@@ -1,0 +1,30 @@
+#presidents {
+
+  position: fixed;
+
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.bar {
+  fill: #650707;
+}
+
+.years-pres {
+  fill: orange;
+  z-index: 10;
+}
+
+.year-alive {
+  z-index: 0;
+}
+
+.pres-names {
+  background: blue;
+  fill: white;
+  outline: 1px solid green;
+  height: 40px;
+  padding-top: 40px;
+}
