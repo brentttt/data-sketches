@@ -1,5 +1,9 @@
 const d3 = require('d3');
 
+Array.prototype.clone = function(){
+  return JSON.parse(JSON.stringify(this))
+};
+
 // pres chart
 {
 
@@ -7,9 +11,9 @@ const d3 = require('d3');
   const svg = d3.select('#presidents svg');
 
   svg.attr('width', window.innerWidth);
-  svg.attr('height', window.innerHeight / 2);
+  svg.attr('height', window.innerHeight);
 
-  const margin = {top: 20, right: 0, bottom: 40, left: 300},
+  const margin = {top: 20, right: 0, bottom: 150, left: 300},
       width = +svg.attr('width') - margin.left - margin.right,
       height = +svg.attr('height') - margin.top - margin.bottom;
 
@@ -33,7 +37,7 @@ const d3 = require('d3');
     var y = d3.scaleBand()
         .range([height, 0]);
 
-    let curData = data;
+    let curData = data.clone();
 
     const xAxis = d3.axisBottom(x).ticks(5);
 
@@ -47,9 +51,9 @@ const d3 = require('d3');
     .call(d3.axisLeft(y));
 
 //UPDATE FUNCTION
-    const updateChart = (data) => {
+    const updateChart = (newData) => {
       const t = d3.transition()
-        .duration(250);
+        .duration(50);
 
       // const min = d3.min(data, function(d) { return d.yearsAlive[0]; });
       const min = timeFrame[0];
@@ -57,7 +61,7 @@ const d3 = require('d3');
 
 
       x.domain([min, max]);
-      y.domain(data.map(function(d) { return d.president; }));
+      y.domain(newData.map(function(d) { return d.president; }));
 
       g.select('.x')
         // .transition(t)
@@ -67,16 +71,29 @@ const d3 = require('d3');
 
 {
       const yearsAliveBars = g.selectAll('.years-alive')
-        .data(data);
+        .data(newData);
 
       yearsAliveBars.exit()
+      .transition(t)
+        .attr('height', 0)
         .remove();
 
+        let grover = false;
 
       yearsAliveBars//.transition(t)
         .attr('x', function(d) { return x(d.yearsAlive[0])})
+        .attr('width', function(d) {
+          if(d.president !== 'Grover Cleveland') {
+            return x(d.numYearsAlive + min)
+          }
+          if(d.president === 'Grover Cleveland' && !grover) {
+            grover = true;
+            return x(d.numYearsAlive + min)
+          }
+          }
+        )
+        .transition(t)
         .attr('y', function(d) { return y(d.president); })
-        .attr('width', function(d) { return x(d.numYearsAlive + min)})
         .attr('height', y.bandwidth());
 
 
@@ -94,7 +111,7 @@ const d3 = require('d3');
 
 {
       const yearsPresBars = g.selectAll('.years-pres')
-        .data(data);
+        .data(newData);
 
       yearsPresBars.exit()
         .remove();
@@ -102,8 +119,9 @@ const d3 = require('d3');
 
       yearsPresBars//.transition(t)
         .attr('x', function(d) { return x(d.yearsAsPres[0])})
-        .attr('y', function(d) { return y(d.president); })
         .attr('width', function(d) { return x(d.numYearsAsPres + min)})
+        .transition(t)
+        .attr('y', function(d) { return y(d.president); })
         .attr('height', y.bandwidth());
 
 
@@ -120,35 +138,40 @@ const d3 = require('d3');
 {
 // NAMES
     const presNames = g.selectAll('.pres-names')
-      .data(data);
+      .data(newData);
 
     presNames.exit()
+      // .transition(t)
+      // .style('opacity', '0')
       .remove();
 
     presNames
       .attr('x', function(d) { return x(d.yearsAlive[0])})
-      .attr('y', function(d) { return y(d.president) + 20; })
       .attr('width', function(d) { return x(d.numYearsAlive + min)})
-      .attr('height', y.bandwidth());
+      .attr('height', y.bandwidth())
+      .text(function(d) { return d.president })
+      .transition(t)
+      .attr('y', function(d) { return y(d.president) + 10; });
 
     presNames.enter()
       .append('text')
+      .merge(presNames)
       .attr('class', 'pres-names')
-      .attr('x', function(d) { return x(d.yearsAsPres[0])})
+      .attr('x', function(d) { return x(d.yearsAlive[0])})
       .attr('height', y.bandwidth())
-      .attr('y', function(d) { return y(d.president) + 20; })
       .text(function(d) { return d.president })
-      .merge(presNames);
+      .transition(t)
+      .attr('y', function(d) { return y(d.president) + 10; });
 
 }
 
     }
 
-    updateChart(curData);
-
     const narrowTimeFrame = (start, end) => {
-      curData = data.filter((pres) => {
-        if((pres.yearsAlive[1] > start) && pres.yearsAlive[0] < end) {
+      let clone = data.clone();
+      clone = clone.map((pres) => {
+
+        // clip beggining
           if(pres.yearsAlive[0] < start) {
             pres.yearsAlive[0] = start;
             pres.numYearsAlive = pres.yearsAlive[1] - pres.yearsAlive[0];
@@ -156,10 +179,26 @@ const d3 = require('d3');
           if(pres.yearsAsPres[0] < start) {
             pres.yearsAsPres[0] = start;
             pres.numYearsAsPres = pres.yearsAsPres[1] - pres.yearsAsPres[0];
+
+            if(pres.numYearsAsPres <= 0) pres.numYearsAsPres = 0;
           }
+          // clip ending
+
+          if(pres.yearsAlive[0] > end) {
+            pres.numYearsAlive = 0
+          }
+
           return pres;
-        }
       });
+
+      clone = clone.filter((pres) => {
+        if(pres.numYearsAlive > 0) {
+             return pres;
+        }
+      })
+
+      curData = clone;
+
 
     }
 
@@ -178,7 +217,9 @@ const d3 = require('d3');
 
       narrowTimeFrame(timeFrame[0], timeFrame[1]);
       updateChart(curData);
-  }, false)
+    }, false);
+
+    updateChart(curData);
 
   });
 
