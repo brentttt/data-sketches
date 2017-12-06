@@ -1,0 +1,542 @@
+{
+  "presidents": [{
+  "yearsAsPres": [
+    1789,
+    1797
+  ],
+  "party": "none",
+  "president": "George Washington",
+  "yearsAlive": [
+    1732,
+    1799
+  ]
+}, {
+  "yearsAsPres": [
+    1797,
+    1801
+  ],
+  "party": "Federalist",
+  "president": "John Adams",
+  "yearsAlive": [
+    1735,
+    1826
+  ]
+}, {
+  "yearsAsPres": [
+    1801,
+    1809
+  ],
+  "party": "Democratic-Republican",
+  "president": "Thomas Jefferson",
+  "yearsAlive": [
+    1743,
+    1826
+  ]
+}, {
+  "yearsAsPres": [
+    1809,
+    1817
+  ],
+  "party": "Democratic-Republican",
+  "president": "James Madison",
+  "yearsAlive": [
+    1751,
+    1836
+  ]
+}, {
+  "yearsAsPres": [
+    1817,
+    1825
+  ],
+  "party": "Democratic-Republican",
+  "president": "James Monroe",
+  "yearsAlive": [
+    1758,
+    1831
+  ]
+}, {
+  "yearsAsPres": [
+    1825,
+    1829
+  ],
+  "party": "Democratic-Republican",
+  "president": "John Quincy Adams",
+  "yearsAlive": [
+    1767,
+    1848
+  ]
+}, {
+  "yearsAsPres": [
+    1829,
+    1837
+  ],
+  "party": "Democrat",
+  "president": "Andrew Jackson",
+  "yearsAlive": [
+    1767,
+    1845
+  ]
+}, {
+  "yearsAsPres": [
+    1837,
+    1841
+  ],
+  "party": "Democrat",
+  "president": "Martin van Buren",
+  "yearsAlive": [
+    1782,
+    1862
+  ]
+}, {
+  "yearsAsPres": [
+    1841,
+    1841.5
+  ],
+  "party": "Whig",
+  "president": "William H. Harrison",
+  "yearsAlive": [
+    1773,
+    1841.5
+  ]
+}, {
+  "yearsAsPres": [
+    1841.5,
+    1845
+  ],
+  "party": "Whig",
+  "president": "John Tyler",
+  "yearsAlive": [
+    1790,
+    1862
+  ]
+}, {
+  "yearsAsPres": [
+    1845,
+    1849
+  ],
+  "party": "Democrat",
+  "president": "James K. Polke",
+  "yearsAlive": [
+    1795,
+    1849
+  ]
+}, {
+  "yearsAsPres": [
+    1849,
+    1850
+  ],
+  "party": "Whig",
+  "president": "Zachary Taylor",
+  "yearsAlive": [
+    1784,
+    1850
+  ]
+}, {
+  "yearsAsPres": [
+    1850,
+    1853
+  ],
+  "party": "Whig",
+  "president": "Millard Fillmore",
+  "yearsAlive": [
+    1800,
+    1874
+  ]
+}, {
+  "yearsAsPres": [
+    1853,
+    1857
+  ],
+  "party": "Democrat",
+  "president": "Franklin Pierce",
+  "yearsAlive": [
+    1804,
+    1874
+  ]
+}, {
+  "yearsAsPres": [
+    1857,
+    1861
+  ],
+  "party": "Democrat",
+  "president": "James Buchanan",
+  "yearsAlive": [
+    1791,
+    1868
+  ]
+}, {
+  "yearsAsPres": [
+    1861,
+    1865
+  ],
+  "party": "Republican",
+  "president": "Abraham Lincoln",
+  "yearsAlive": [
+    1809,
+    1865
+  ]
+}, {
+  "yearsAsPres": [
+    1865,
+    1869
+  ],
+  "party": "National-Union",
+  "president": "Andrew Johnson",
+  "yearsAlive": [
+    1808,
+    1875
+  ]
+}, {
+  "yearsAsPres": [
+    1869,
+    1877
+  ],
+  "party": "Republican",
+  "president": "Ulysses S. Grant",
+  "yearsAlive": [
+    1822,
+    1885
+  ]
+}, {
+  "yearsAsPres": [
+    1877,
+    1881
+  ],
+  "party": "Republican",
+  "president": "Rutherford Hayes",
+  "yearsAlive": [
+    1822,
+    1893
+  ]
+}, {
+  "yearsAsPres": [
+    1881,
+    1881.5
+  ],
+  "party": "Republican",
+  "president": "James Garfield",
+  "yearsAlive": [
+    1831,
+    1881
+  ]
+}, {
+  "yearsAsPres": [
+    1881.5,
+    1885
+  ],
+  "party": "Republican",
+  "president": "Chester Arthur",
+  "yearsAlive": [
+    1829,
+    1886
+  ]
+}, {
+  "yearsAsPres": [
+    1885,
+    1889
+  ],
+  "party": "Democrat",
+  "president": "Grover Cleveland",
+  "yearsAlive": [
+    1837,
+    1908
+  ]
+}, {
+  "yearsAsPres": [
+    1889,
+    1893
+  ],
+  "party": "Republican",
+  "president": "Benjamin Harrison",
+  "yearsAlive": [
+    1833,
+    1901
+  ]
+}, {
+  "yearsAsPres": [
+    1893,
+    1897
+  ],
+  "party": "Democrat",
+  "president": "Grover Cleveland",
+  "yearsAlive": [
+    1837,
+    1908
+  ]
+}, {
+  "yearsAsPres": [
+    1897,
+    1901
+  ],
+  "party": "Republican",
+  "president": "William McKinley",
+  "yearsAlive": [
+    1843,
+    1901
+  ]
+}, {
+  "yearsAsPres": [
+    1901,
+    1909
+  ],
+  "party": "Republican",
+  "president": "Theodore Roosevelt",
+  "yearsAlive": [
+    1858,
+    1919
+  ]
+}, {
+  "yearsAsPres": [
+    1909,
+    1913
+  ],
+  "party": "Republican",
+  "president": "William Taft",
+  "yearsAlive": [
+    1857,
+    1930
+  ]
+}, {
+  "yearsAsPres": [
+    1913,
+    1921
+  ],
+  "party": "Democrat",
+  "president": "Woodrow Wilson",
+  "yearsAlive": [
+    1856,
+    1924
+  ]
+}, {
+  "yearsAsPres": [
+    1921,
+    1923
+  ],
+  "party": "Republican",
+  "president": "Warren Harding",
+  "yearsAlive": [
+    1865,
+    1923
+  ]
+}, {
+  "yearsAsPres": [
+    1923,
+    1929
+  ],
+  "party": "Republican",
+  "president": "Calvin Coolidge",
+  "yearsAlive": [
+    1872,
+    1933
+  ]
+}, {
+  "yearsAsPres": [
+    1929,
+    1933
+  ],
+  "party": "Republican",
+  "president": "Herbert Hoover",
+  "yearsAlive": [
+    1874,
+    1964
+  ]
+}, {
+  "yearsAsPres": [
+    1933,
+    1945
+  ],
+  "party": "Democrat",
+  "president": "Franklin D. Roosevelt",
+  "yearsAlive": [
+    1882,
+    1945
+  ]
+}, {
+  "yearsAsPres": [
+    1945,
+    1953
+  ],
+  "party": "Democrat",
+  "president": "Harry S. Truman",
+  "yearsAlive": [
+    1884,
+    1972
+  ]
+}, {
+  "yearsAsPres": [
+    1953,
+    1961
+  ],
+  "party": "Republican",
+  "president": "Dwight D. Eisenhower",
+  "yearsAlive": [
+    1890,
+    1969
+  ]
+}, {
+  "yearsAsPres": [
+    1961,
+    1963
+  ],
+  "party": "Democrat",
+  "president": "John F. Kennedy",
+  "yearsAlive": [
+    1917,
+    1963
+  ]
+}, {
+  "yearsAsPres": [
+    1963,
+    1969
+  ],
+  "party": "Democrat",
+  "president": "Lyndon B. Johnson",
+  "yearsAlive": [
+    1908,
+    1973
+  ]
+}, {
+  "yearsAsPres": [
+    1969,
+    1974
+  ],
+  "party": "Republican",
+  "president": "Richard Nixon",
+  "yearsAlive": [
+    1913,
+    1994
+  ]
+}, {
+  "yearsAsPres": [
+    1974,
+    1977
+  ],
+  "party": "Republican",
+  "president": "Gerald R. Ford",
+  "yearsAlive": [
+    1913,
+    2006
+  ]
+}, {
+  "yearsAsPres": [
+    1977,
+    1981
+  ],
+  "party": "Democrat",
+  "president": "Jimmy Carter",
+  "yearsAlive": [
+    1924,
+    2017.5
+  ]
+}, {
+  "yearsAsPres": [
+    1981,
+    1989
+  ],
+  "party": "Republican",
+  "president": "Ronald Reagan",
+  "yearsAlive": [
+    1911,
+    2004
+  ]
+}, {
+  "yearsAsPres": [
+    1989,
+    1993
+  ],
+  "party": "Republican",
+  "president": "George H. W. Bush",
+  "yearsAlive": [
+    1924,
+    2017.5
+  ]
+}, {
+  "yearsAsPres": [
+    1993,
+    2001
+  ],
+  "party": "Democrat",
+  "president": "Bill Clinton",
+  "yearsAlive": [
+    1946,
+    2017.5
+  ]
+}, {
+  "yearsAsPres": [
+    2001,
+    2009
+  ],
+  "party": "Republican",
+  "president": "George W. Bush",
+  "yearsAlive": [
+    1946,
+    2017.5
+  ]
+}, {
+  "yearsAsPres": [
+    2009,
+    2017.5
+  ],
+  "party": "Democrat",
+  "president": "Barack Obama",
+  "yearsAlive": [
+    1961,
+    2017
+  ]
+}, {
+  "yearsAsPres": [
+    2017,
+    2017.5
+  ],
+  "party": "Republican",
+  "president": "Donald Trump",
+  "yearsAlive": [
+    1946,
+    2017.5
+  ]
+}],
+"eras": [
+  {
+  "title": "Revolutionary War",
+  "years": [1775, 1783]
+  }, {
+    "title":"War of 1812",
+    "years": [1812, 1815]
+  }, {
+    "title": "Trail of Tears",
+    "years": [1831, 1850],
+    "height": 2.5
+  }, {
+    "title": "California Gold Rush",
+    "years": [1848, 1855]
+  },{
+    "title":"American Civil War",
+    "years": [1861, 1865],
+    "height": 2.5
+  },{
+    "title":"World War I",
+    "years": [1914, 1918]
+  }, {
+    "title": "The Great Depression",
+    "years": [1929, 1938.9],
+    "height": 2.5
+  }, {
+    "title": "World War II",
+    "years": [1939, 1945]
+  }, {
+    "title": "Civil Rights Movement",
+    "years": [1954, 1968],
+    "height": 4
+  }, {
+    "title": "Vietnam War",
+    "years": [1955, 1975],
+    "height": 2.5
+  }, {
+    "title": "Cold War",
+    "years": [1947, 1991]
+  }, {
+    "title": "War in Afghanistan",
+    "years": [2001, 2017.5]
+  }
+]
+}
